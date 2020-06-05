@@ -2,9 +2,14 @@
 In this repository I focus on compiling noticable research done in the field of end to end semantic segmentation of 2D-images using Deep Learning(DL). Hopefully I will also add some implementaiton too in future.
 
 ## Survey
+* 20160221 [A Survey of Semantic Segmentation](https://arxiv.org/abs/1602.06541)
 * 20170422 [A Review on Deep Learning Techniques Applied to Semantic Segmentation](https://arxiv.org/abs/1704.06857)
+* 20170708 [Deep Semantic Segmentation for Automated Driving: Taxonomy, Roadmap and Challenges](https://arxiv.org/abs/1707.02432)
+* 201711xx [A review of semantic segmentation using deep neural networks](https://www.researchgate.net/publication/321283063_A_review_of_semantic_segmentation_using_deep_neural_networks)
 * 20180307 [RTSeg: Real-time Semantic Segmentation Comparative Study](https://arxiv.org/abs/1803.02758)
+* 20180823 [Methods and datasets on semantic segmentation: A review](https://www.sciencedirect.com/science/article/abs/pii/S0925231218304077)
 * 20180920 [Recent progress in semantic image segmentation](https://arxiv.org/abs/1809.10198)
+* 20190421 [Survey on semantic segmentation using deep learning techniques](https://www.sciencedirect.com/science/article/abs/pii/S092523121930181X)
 * 20191221 [A Survey on Deep Learning-based Architectures for Semantic Segmentation on 2D images](https://arxiv.org/abs/1912.10230)
 
 
