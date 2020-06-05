@@ -28,7 +28,7 @@ In this repository I focus on compiling noticable research done in the field of 
 * 20160602 DeepLab V2 [DeepLab: Semantic Image Segmentation with Deep Convolutional Nets, Atrous Convolution, and Fully Connected CRFs](https://arxiv.org/abs/1606.00915)
 * 20160607 ENet [ENet: A Deep Neural Network Architecture for Real-Time Semantic Segmentation](https://arxiv.org/abs/1606.02147)
 * 20161120 RefineNet [RefineNet: Multi-Path Refinement Networks for High-Resolution Semantic Segmentation](https://arxiv.org/abs/1611.06612)
-* 20161130 Wider or Deeper: [Wider or Deeper: Revisiting the ResNet Model for Visual Recognition](https://arxiv.org/abs/1611.10080)
+* 20161130 Wider or Deeper [Wider or Deeper: Revisiting the ResNet Model for Visual Recognition](https://arxiv.org/abs/1611.10080)
 * 20161204 PSPNet [Pyramid Scene Parsing Network](https://arxiv.org/abs/1612.01105)
 
 
