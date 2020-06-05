@@ -1,5 +1,5 @@
-# Evolution-of-DNN-Based-End-to-End-Sementic-Segmentation
-In this repository we focus to compile noticable research done in the field of end to end semantic segmentation using Deep Convolutional Neural Network (DCNN).
+# Evolution-of-DL-Based-End-to-End-Sementic-Segmentation
+In this repository we focus to compile noticable research done in the field of end to end semantic segmentation of 2D-images using Deep Learning(DL).
 
 Note:
 * I am not focusing on the work done for sementic segmentaiton of RGB-D or 3D image segmentation here 
