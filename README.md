@@ -1,10 +1,6 @@
 # Evolution-of-DL-Based-End-to-End-Sementic-Segmentation
 In this repository we focus to compile noticable research done in the field of end to end semantic segmentation of 2D-images using Deep Learning(DL).
 
-Note:
-* I am not focusing on the work done for sementic segmentaiton of RGB-D or 3D image segmentation here 
-* This repository will updated with time to add more detail
-
 ## Survey
 * 20170422 [A Review on Deep Learning Techniques Applied to Semantic Segmentation](https://arxiv.org/abs/1704.06857)
 * 20180307 [RTSeg: Real-time Semantic Segmentation Comparative Study](https://arxiv.org/abs/1803.02758)
