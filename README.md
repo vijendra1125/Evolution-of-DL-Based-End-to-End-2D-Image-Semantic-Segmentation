@@ -1,5 +1,5 @@
 # Post-FCN-Evolution-of-End-to-End-2D-Image-Semantic-Segmentation
-In this repository I focus on compiling noticable research done in the field of end to end semantic segmentation of 2D-images post Fully Convolutional Network (FCN) was published in 2014. Hopefully I will also add some implementaiton too in future.
+In this repository I focus on compiling noticable research done in the field of end to end semantic segmentation of 2D-images post Fully Convolutional Network (FCN) publication in 2014. Hopefully I will also add some implementaiton too in future.
 
 ## Survey
 * 20160221 [A Survey of Semantic Segmentation](https://arxiv.org/abs/1602.06541)
