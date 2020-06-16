@@ -14,7 +14,6 @@ In this repository I focus on compiling noticable research done in the field of 
 
 
 ## Research 
-### Main *(in progress)*
 * 20141114 FCN [Fully Convolutional Networks for Semantic Segmentation](https://arxiv.org/abs/1411.4038)
 * 20141222 DeepLab V1 [Semantic Image Segmentation with Deep Convolutional Nets and Fully Connected CRFs](https://arxiv.org/abs/1412.7062)
 * 20150211 CRFasRNN [Conditional Random Fields as Recurrent Neural Networks](https://arxiv.org/abs/1502.03240)
