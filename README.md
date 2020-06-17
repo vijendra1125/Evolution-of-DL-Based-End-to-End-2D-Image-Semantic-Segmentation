@@ -1,16 +1,55 @@
 # Post-FCN-Evolution-of-End-to-End-2D-Image-Semantic-Segmentation
-In this repository I focus on compiling noticable research done in the field of end to end semantic segmentation of 2D-images post Fully Convolutional Network (FCN) publication in 2014. Hopefully I will also add some implementaiton too in future.
+In this repository I focus on compiling noticable research done in the field of end to end semantic segmentation of 2D-images post Fully Convolutional Network (FCN) publication in 2014. 
+
+Hopefully I will also add some implementaiton and summary notes in future.
+
+## Evolution
+### FCN
+All current state-of-art deep learning methods for semantic segmentation has been evolved from FCN. FCN introduced the concept of replacing fully connected layer in the classification network with convolutional layers and hence a mean for end-to-end training of semantic segmentation and learning dense prediction for input image of any size. Its also presented how skip connection and learned upsampling (deconvolution) could be used to recover spatial information which is lost in Deep Convolutional Neural Network (DCNN) due to max-pooling and sub-sampling. 
+
+There were three major issue with FCN which was further followed by researchers to improve performance.
+* Loss of spatial information
+* Inability to capture global context
+* Lack of mechanism for multi-scale processing
+
+### Loss of spatial inforamtion
+Giving a bigger picture, most noticable approach could be seen as follow:
+* Limiting the loss of spatial information
+  * Use of dilated convolution in encoder in order to retain a dense feature map output from encoder without compromising on expanding receptiv field as we go deeper in the network and hence limiting the loss of spatial information.
+    * Papers: DeepLab, DilateNet
+* Recovring the lost spatial information
+  * Recovering by complemeting the decoding process with the available infromation from encoder
+    * Skip connections from feature map before max-pooling
+      * Elementwise addition
+        * Papers: FCN, SegNet
+      * Concatenation
+        * Papers: UNet
+    * Max-pooling indices
+      * Papers: DeconNet, SegNet
+  * Recovering by learning the lost spatial information during decoding process
+    * Learning using convolutional layers
+      * Papers: UNet, SegNet
+    * Learning using deconvolutional layers
+      * Papers: FCN, DeconvNet
+    
+### Inability to capture global context
+In progress
+* Conditional Random Field (CRF)
+  * Papers: DeepLab, CRFasRNN
+
+### Lack of Mechanism for multi-scale processing
+Coming in future
 
 ## Survey
 * 20160221 [A Survey of Semantic Segmentation](https://arxiv.org/abs/1602.06541)
-* 20170422 [A Review on Deep Learning Techniques Applied to Semantic Segmentation](https://arxiv.org/abs/1704.06857)
+* 20170422 [A Review on Deep Learning Techniques Applied to Semantic Segmentation](https://arxiv.org/abs/1704.06857) :heart:
 * 20170708 [Deep Semantic Segmentation for Automated Driving: Taxonomy, Roadmap and Challenges](https://arxiv.org/abs/1707.02432)
 * 201711xx [A review of semantic segmentation using deep neural networks](https://www.researchgate.net/publication/321283063_A_review_of_semantic_segmentation_using_deep_neural_networks)
-* 20180307 [RTSeg: Real-time Semantic Segmentation Comparative Study](https://arxiv.org/abs/1803.02758)
+* 20180307 [RTSeg: Real-time Semantic Segmentation Comparative Study](https://arxiv.org/abs/1803.02758) :heart:
 * 20180823 [Methods and datasets on semantic segmentation: A review](https://www.sciencedirect.com/science/article/abs/pii/S0925231218304077)
 * 20180920 [Recent progress in semantic image segmentation](https://arxiv.org/abs/1809.10198)
 * 20190421 [Survey on semantic segmentation using deep learning techniques](https://www.sciencedirect.com/science/article/abs/pii/S092523121930181X)
-* 20191221 [A Survey on Deep Learning-based Architectures for Semantic Segmentation on 2D images](https://arxiv.org/abs/1912.10230)
+* 20191221 [A Survey on Deep Learning-based Architectures for Semantic Segmentation on 2D images](https://arxiv.org/abs/1912.10230) :heart:
 
 
 ## Research 
