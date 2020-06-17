@@ -5,19 +5,19 @@ Hopefully I will also add some implementaiton and summary notes in future.
 
 ## Evolution
 ### FCN
-All current state-of-art deep learning methods for semantic segmentation has been evolved from FCN. FCN introduced the concept of replacing fully connected layer in the classification network with convolutional layers and hence a mean for end-to-end training of semantic segmentation and learning dense prediction for input image of any size. Its also presented how skip connection and learned upsampling (deconvolution) could be used to recover spatial information which is lost in Deep Convolutional Neural Network (DCNN) due to max-pooling and sub-sampling. 
+All current state-of-art deep learning methods for semantic segmentation has been evolved from FCN. FCN introduced the concept of replacing fully connected layer in the classification network with convolutional layers and hence a mean for end-to-end training of semantic segmentation and learning dense prediction for input image of any size. It also presented how skip connection and learned upsampling (deconvolution) could be used to recover spatial information which is lost in Deep Convolutional Neural Network (DCNN) due to max-pooling and sub-sampling. 
 
 There were three major issue with FCN which was further followed by researchers to improve performance.
-* Loss of spatial information
-* Inability to capture global context
-* Lack of mechanism for multi-scale processing
+* Loss of spatial information - Due to downsampling of input using max-pooling and sub-sampling
+* Inability to capture global context - Due to inherent spatial invariance
+* Lack of mechanism for multi-scale processing - Due to fixed-size receptive field 
 
 ### Loss of spatial inforamtion
 Giving a bigger picture, most noticable approach could be seen as follow:
 * Limiting the loss of spatial information
   * Use of dilated convolution in encoder in order to retain a dense feature map output from encoder without compromising on expanding receptiv field as we go deeper in the network and hence limiting the loss of spatial information.
     * Papers: DeepLab, DilateNet
-* Recovring the lost spatial information
+* Recovering the lost spatial information
   * Recovering by complemeting the decoding process with the available infromation from encoder
     * Skip connections from feature map before max-pooling
       * Elementwise addition
