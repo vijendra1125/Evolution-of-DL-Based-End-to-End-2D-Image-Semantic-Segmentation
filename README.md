@@ -34,8 +34,11 @@ Giving a bigger picture, most noticable approach could be seen as follow:
     
 ### Inability to capture global context
 In progress
+* Dilated Convolution
 * Conditional Random Field (CRF)
   * Papers: DeepLab, CRFasRNN
+* Recurrent Neural Network
+* Feature Fusion
 
 ### Lack of Mechanism for multi-scale processing
 Coming in future
