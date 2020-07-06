@@ -15,7 +15,8 @@ There were three major issue with FCN which was further followed by researchers 
 ### Loss of spatial inforamtion
 Giving a bigger picture, most noticable approach could be seen as follow:
 * Limiting the loss of spatial information
-  * Use of dilated convolution in encoder in order to retain a dense feature map output from encoder without compromising on expanding receptiv field as we go deeper in the network and hence limiting the loss of spatial information.
+  * Dilated Convolution
+    * Use of dilated convolution in encoder in order to retain a dense feature map output from encoder without compromising on expanding receptiv field as we go deeper in the network and hence limiting the loss of spatial information.
     * Papers: DeepLab, DilateNet
 * Recovering the lost spatial information
   * Recovering by complemeting the decoding process with the available infromation from encoder
@@ -34,7 +35,6 @@ Giving a bigger picture, most noticable approach could be seen as follow:
     
 ### Inability to capture global context
 In progress
-* Dilated Convolution
 * Conditional Random Field (CRF)
   * Papers: DeepLab, CRFasRNN
 * Recurrent Neural Network
