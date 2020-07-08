@@ -17,7 +17,7 @@ Giving a bigger picture, most noticable approach could be seen as follow:
 * Limiting the loss of spatial information
   * Dilated Convolution
     * Use of dilated convolution in encoder in order to retain a dense feature map output from encoder without compromising on expanding receptiv field as we go deeper in the network and hence limiting the loss of spatial information.
-    * Papers: DeepLab, DilateNet
+    * Papers: DeepLab, DilateNet, ENet
 * Recovering the lost spatial information
   * Recovering by complemeting the decoding process with the available infromation from encoder
     * Skip connections from feature map before max-pooling
